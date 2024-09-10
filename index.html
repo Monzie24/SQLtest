@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Credentials Tester</title>
+</head>
+<body>
+    <h2>Test MySQL Credentials</h2>
+    <form id="mysqlForm" method="POST" action="test_mysql_credentials.php">
+        <label for="host">Host:</label>
+        <input type="text" name="host" id="host" value="localhost" required><br><br>
+        
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br><br>
+        
+        <button type="submit" name="test_connection">Test Connection</button>
+    </form>
+</body>
+</html>
